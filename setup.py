@@ -4,16 +4,16 @@ except ImportError:
 	from distutils.core import setup
 
 config = {
-	'description': 'My Project',
-	'author': 'My Name',
-	'url': 'URL to get it at',
-	'download_url': 'Where to download it',
-	'author_email': 'My email',
+	'description': 'Find Phone Number in a Passed String',
+	'author': 'Sunny Lam',
+	'url': 'https://github.com/sunnylam13/isPhoneNumber',
+	'download_url': 'https://github.com/sunnylam13/isPhoneNumber',
+	'author_email': 'sunny.lam@gmail.com',
 	'version': '0.1',
 	'install_requires': ['nose'],
 	'packages': ['NAME'],
 	'scripts': [],
-	'name': 'projectname'
+	'name': 'isPhoneNumber'
 }
 
 setup(**config)
